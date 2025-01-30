@@ -1,0 +1,36 @@
+{
+  "name": "camunda-nodejs-sdk-starterpack",
+  "version": "1.0.0",
+  "description": "Quickly and easily build a Camunda fullstack application in pure NodeJS with the Camunda NodeJS SDK.",
+  "main": "main.js",
+  "scripts": {
+    "run": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcqw/camunda-nodejs-sdk-starterpack.git"
+  },
+  "type": "module",
+  "keywords": [
+    "camunda",
+    "node",
+    "js",
+    "javascript",
+    "sdk",
+    "starter"
+  ],
+  "author": "William Marcq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcqw/camunda-nodejs-sdk-starterpack/issues"
+  },
+  "homepage": "https://github.com/marcqw/camunda-nodejs-sdk-starterpack#readme",
+  "dependencies": {
+    "@camunda8/sdk": "^8.6.12",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "nodemon": "^3.1.4"
+  }
+}
